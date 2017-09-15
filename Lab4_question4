@@ -9,6 +9,7 @@ int evenodd(int num){
 int main() {
 int n;
 cout<<"Enter a number\n";
+cin>>n;
 if(evenodd(n)==1)
 cout<<"The number is even\n";
 else 
